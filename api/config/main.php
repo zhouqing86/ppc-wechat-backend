@@ -43,6 +43,7 @@ return [
             'showScriptName' => false,
             'rules' => [
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'article'],
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'plan'],
             ],
         ],
     ],
